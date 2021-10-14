@@ -1,0 +1,57 @@
+body, html * {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1  {
+    color:aquamarine;
+    background-color:brown;
+    font: size 50px;
+    text-decoration: chartreuse;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color:bisque;
+    text-align: justify;
+    line-height: 30px;
+    letter-spacing: 5px;
+}
+
+ul {
+
+    /* border-width: 4px;
+    border-style: solid
+    border-color:brown; */
+    border-bottom: 4px solid red;
+    border-left: 8px dotted blue;
+    border-top: 4px solid red;
+    border-right: 8px solid blue;
+}
+
+li {
+
+    /*border-bottom: 1px solid red; */
+    text-shadow: 2px 2px black;
+    list-style-type: none;
+}
+
+.class1 {
+    background-color: aqua;
+    width: 300px;
+
+}
+    
+    #id1 {
+        background-color: blueviolet;
+    }
+  
+    #divImagens{
+        background-color: saddlebrown;
+    }
+
+    img {
+        mix-blend-mode: multiply;
+    }
