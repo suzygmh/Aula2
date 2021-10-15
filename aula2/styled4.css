@@ -1,0 +1,82 @@
+footer{
+    background: red;
+    padding: 20px 0;
+}
+
+header{
+    background: red;
+    padding: 20px 0;
+}
+.caixa{
+    position: relative;
+    width:940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top:-12px;
+    right: 400px;
+}
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;    
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+span{
+   font-size: 14px; 
+   color:white;
+}
+
+.divCogumelo{   
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+    border:1px solid black;
+    border-radius: 10px;
+}
+
+.divCogumelo:hover{
+    border-color: #E0E0DA;
+}
+
+span:hover{
+    color: seagreen;
+
+}
+
+#btnSalvar{
+    background-color: green;
+    color: yellow;
+    width: 100px;
+    height: 30px;
+}
+
+#btnSalvar:hover{
+    background-color: gray;
+    color: white;
+    
+}
+
+.contact{
+    margin-left:5%;
+}
+
+.coluna{   
+    width: 15%;
+    vertical-align: baseline;
+}
+
+.linha{
+    height: 30px;
+}
+
+.controle{
+    width: 40%;
+}

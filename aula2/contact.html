@@ -1,8 +1,69 @@
 <html>
-    <head>
-        <title>Contato</title>
-    </head>
-    <body>
-        <h1>Contato ... Em construção</h1>
-    </body>
+  <head>
+    <title>DBC Home</title>
+    <link rel="stylesheet" href="styled4.css">
+  </head>
+  <body style="background-color:lemonchiffon;">
+    <header>
+        <div class="caixa">   
+            <img src="cogumelo.png" style="background-image: none;" width="3%" >  
+            <nav>
+                <ul> 
+                    <li><a href="./home.html" title="Ir para exercício 3"><span>Home</span></a></li>
+                    <li><a href="./about.html" title="Ir para Sobre"><span>Sobre</span></a></li>
+                    <li><a href="./Contact.html" title="Ir para Contato"><span>Contato</span></a></li>
+                 </ul>
+            </nav>
+        </div>
+    </header>
+   
+      <section class="contact">
+        <div class="container">
+          <h1>Contato</h1>
+          <form class="form-contact" action="">
+            
+            <table style="width: 100%;">
+                <tr class="linha">
+                    <td class="coluna"><label for="username">Digite seu nome completo:</label></td>
+                    <td><input type="text" class="controle" id="username" name="username" placeholder="digite o nome completo" required></td>
+                </tr>
+                <tr class="linha">
+                    <td class="coluna"><label for="email">Digite seu e-mail:</label></td>
+                    <td><input type="email" class="controle" id="email" name="email:" placeholder="digite o e-mail" required></td>
+                </tr>
+                <tr class="linha">
+                    <td class="coluna"><label for="">Qual o motivo do contato:</label></td>
+                    <td>
+                        <select name="question" id="question" class="controle">
+                            <option value="q0">-- Selecione --</option>
+                            <option value="q1">Problema no site</option>
+                            <option value="q2">Não sei programar</option>
+                            <option value="q3">HTML é easy demais</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr class="linha">
+                    <td class="coluna"><label for="message">Sua Menssagem:</label><br/></td>
+                    <td><textarea name="message" class="controle" id="message" cols="100" rows="10" placeholder="Digite sua Menssagem"></textarea></td>
+                </tr>
+                <tr class="linha">                    
+                </tr>
+                <tr class="linha">
+                    <td class="coluna"></td>
+                    <td><input type="submit" value="salvar" id="btnSalvar"></td>
+                </tr>
+            </table>
+          </form>
+        </div>
+      </section>
+     
+        <br /><br />
+
+       <footer>
+        <div style="text-align: center;">
+        <address><span>Av. Andarai 531 - Porto Alegre</span></address>
+        </div>
+      </footer>
+   
+  </body>
 </html>
